@@ -1,0 +1,11 @@
+# backend ignore
+backend/logs
+*.log
+backend/coverage
+node_modules
+backend/dist
+
+# frontend ignore
+.cache/
+public
+
