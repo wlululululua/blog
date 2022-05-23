@@ -6,7 +6,11 @@ const Hero = () => {
     return (
         <HeroStyled>
             <section className="image">
-                <StaticImage src="../../images/person.jpg" />
+                <StaticImage
+                    src="../../images/person.jpg"
+                    alt="person"
+                    width={500}
+                />
             </section>
             <section className="words">
                 <p>🎉🎉🎉欢迎来到wlulu的blog~~~~~~</p>

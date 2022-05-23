@@ -6,6 +6,7 @@ import Header from "./Header/Header";
 const Layout = ({ children }) => {
     return (
         <>
+            <title>lulusaikou</title>
             <GlobalStyles />
             <Header />
             <main>{children}</main>
