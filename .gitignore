@@ -8,4 +8,5 @@ backend/dist
 # frontend ignore
 .cache/
 public
+.env
 

@@ -8,5 +8,16 @@ module.exports = {
         "gatsby-plugin-image",
         "gatsby-plugin-sharp",
         "gatsby-transformer-sharp",
+        "gatsby-plugin-react-helmet",
+        {
+            resolve: "gatsby-plugin-styled-components",
+        },
+        {
+            resolve: "gatsby-source-sanity",
+            options: {
+                projectId: "y1isdcfi",
+                dataset: "production",
+            },
+        },
     ],
 };

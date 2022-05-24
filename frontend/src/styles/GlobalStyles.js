@@ -8,6 +8,8 @@ const GlobalStyles = createGlobalStyle`
         --purple-500: #9C27B0;
         --purple-800: #6A1B9A;
         --purple-a100: #EA80FC;
+        --white: #FFFFFF;
+        --black: #000000;
     }
 
     *, *::before, *::after {

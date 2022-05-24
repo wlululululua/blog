@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Device } from "../../styles/Theme";
 
 const HeroStyled = styled.div`
-    padding: 20px 10%;
+    padding: 20px 10% 0px;
     display: flex;
     flex-direction: column;
 
@@ -17,6 +17,10 @@ const HeroStyled = styled.div`
         p {
             line-height: 1.5;
         }
+    }
+
+    .image {
+        background-color: var(--purple-100);
     }
 
     @media ${Device.Desktop} {
